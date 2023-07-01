@@ -1,0 +1,35 @@
+/* Top navigation bar stuff */
+/* Adding the background colour and setting up the overflow to the top navigation */
+.nav {
+    background-color: black;
+    overflow: hidden;
+}
+/* Styling the links inside the navigation bar */
+.nav a {
+    float: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 40px 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* Changing the color of links on hover */
+.nav a:hover {
+    background-color: lightcoral;
+    color: black;
+}
+/* Adding a color to the active/current link */
+.nav a.active {
+    background-color: coral;
+    color: white;
+}
+
+/* Everything else */
+body {
+    background-color: white;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
